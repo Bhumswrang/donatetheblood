@@ -217,12 +217,7 @@
 				$sql= "INSERT INTO donor (`name`, `gender`, `dob`, `city`, `contact_no`, `save_life_date`, `password`, `email`,`blood_group`) VALUES ('$name', '$gender', '$donorDOB', '$city', '$contact', '0', '$password', '$email','$blood_group')";
 
 				if(mysqli_query($connection,$sql)){
-					$submitSuccess = '<div class="alert alert-success alert-dismissible fade show" role="alert">
-					<strong>Data inserted Successfully.</strong>
-					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>';
+					header('Location: signin.php');
 				}
 				else{
 					$sumbitError = '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -304,7 +299,7 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
 		  if(isset($sumbitError)) echo $sumbitError;
 		  ?>
 
-				<form class="form-group" action="" method="post" novalidate="">
+				<form class="form-group" action="" method="post">
 					<div class="form-group">
 						<label for="fullname">Full Name</label>
 						<input type="text" name="name" id="fullname" placeholder="Full Name" required pattern="[A-Za-z/\s]+" title="Only lower and upper case and space" class="form-control" value="<?php	if(isset($name)) echo $name; ?>">
@@ -321,7 +316,7 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
                 <option value="B+">B+</option>
                 <option value="B-">B-</option>
                 <option value="O+">O+</option>
-                <option value="O-">O+</option>
+                <option value="O-">O-</option>
                 <option value="AB+">AB+</option>
                 <option value="AB-">AB-</option>
               </select>
@@ -359,7 +354,7 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
 				<?php	if(isset($yearError)) echo $yearError; ?>
 				    <div class="form-group">
 						<label for="fullname">Email</label>
-						<input type="text" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please write correct email" class="form-control"  value="<?php	if(isset($email)) echo $email; ?>">
+						<input type="text" name="email" id="email" placeholder="Email" pattern="[a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$" title="Please write correct email" class="form-control"  value="<?php	if(isset($email)) echo $email; ?>">
 						<!--error message-->
 					<?php	if(isset($emailError)) echo $emailError; ?>
 					</div>
@@ -367,7 +362,7 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
 				
 					<div class="form-group">
               <label for="contact_no">Contact No</label>
-              <input type="text" name="contact_no"  placeholder="870*******" class="form-control" required pattern="^\d{11}$" title="11 numeric characters only" maxlength="11"  value="<?php	if(isset($contact)) echo $contact; ?>">
+              <input type="text" name="contact_no"  placeholder="870*******" class="form-control" required pattern="^\d{10}$" title="11 numeric characters only" maxlength="11"  value="<?php	if(isset($contact)) echo $contact; ?>">
             <!--error message-->
 			<?php	if(isset($contactError)) echo $contactError; ?>
 			</div>
@@ -416,6 +411,20 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
 							<option value="Khunti" >Khunti</option>
 							<option value="Jamshedpur" >Jamshedpur</option>
 							<option value="Khalari" >Khalari</option>
+
+							<optgroup title="West Bengal" label="&raquo; West Bengal"></optgroup>
+							<option value="Kolkata" >Kolkata</option>
+							<option value="Jadavpur" >Jadavpur</option>
+							<option value="Baruipur" >Baruipur</option>
+							<option value="NH14" >NH14</option>
+							<option value="Howrah" >Howrah</option>
+							<option value="Narendrapur" >Narendrapur</option>
+							<option value="Canning" >Canning</option>
+							<option value="Haridevpur" >Haridevpur</option>
+							<option value="Salkia" >Salkia</option>
+							<option value="Baranagar" >Baranagar</option>
+							<option value="Kudghat" >Kudghat</option>
+							<option value="Madhyamgram" >Madhyamgram</option>
 							</select>
     	        		<!--error message-->
 		<?php	if(isset($cityError)) echo $cityError; ?>

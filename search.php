@@ -106,6 +106,20 @@
 									<option value="Khunti" >Khunti</option>
 									<option value="Jamshedpur" >Jamshedpur</option>
 									<option value="Khalari" >Khalari</option>
+
+									<optgroup title="West Bengal" label="&raquo; West Bengal"></optgroup>
+									<option value="Kolkata" >Kolkata</option>
+									<option value="Jadavpur" >Jadavpur</option>
+									<option value="Baruipur" >Baruipur</option>
+									<option value="NH14" >NH14</option>
+									<option value="Howrah" >Howrah</option>
+									<option value="Narendrapur" >Narendrapur</option>
+									<option value="Canning" >Canning</option>
+									<option value="Haridevpur" >Haridevpur</option>
+									<option value="Salkia" >Salkia</option>
+									<option value="Baranagar" >Baranagar</option>
+									<option value="Kudghat" >Kudghat</option>
+									<option value="Madhyamgram" >Madhyamgram</option>	
 									</select>
 
 							</div>

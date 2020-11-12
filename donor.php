@@ -55,6 +55,7 @@
 		padding: 20px;
 	}
 </style>
+
 <!--
 <div class="container-fluid red-background size">
 	<div class="row">
@@ -90,6 +91,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
+
 -->
 <div class="container" style="padding: 60px 0;">
 	<div class="row data">

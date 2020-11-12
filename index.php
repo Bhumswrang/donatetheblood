@@ -1,8 +1,6 @@
 <?php 
-
-	//include header file
+	// include header file
 	include ('include/header.php');
-
 ?>
 
 
@@ -24,7 +22,7 @@
 							
 								<select style="width: 220px; height: 45px;" name="city" id="city" class="form-control demo-default" required>
 								<option value="">-- Select --</option>
-								     <optgroup title="Bihar" label="&raquo; Bihar"></optgroup>
+								    <optgroup title="Bihar" label="&raquo; Bihar"></optgroup>
 									<option value="East champaran" >East champaran</option>
 									<option value="Motihari" >Motihari</option>
 									<option value="Mehsi" >Mehsi</option>
@@ -65,6 +63,20 @@
 									<option value="Khunti" >Khunti</option>
 									<option value="Jamshedpur" >Jamshedpur</option>
 									<option value="Khalari" >Khalari</option>	
+									 
+									<optgroup title="West Bengal" label="&raquo; West Bengal"></optgroup>
+									<option value="Kolkata" >Kolkata</option>
+									<option value="Jadavpur" >Jadavpur</option>
+									<option value="Baruipur" >Baruipur</option>
+									<option value="NH14" >NH14</option>
+									<option value="Howrah" >Howrah</option>
+									<option value="Narendrapur" >Narendrapur</option>
+									<option value="Canning" >Canning</option>
+									<option value="Haridevpur" >Haridevpur</option>
+									<option value="Salkia" >Salkia</option>
+									<option value="Baranagar" >Baranagar</option>
+									<option value="Kudghat" >Kudghat</option>
+									<option value="Madhyamgram" >Madhyamgram</option>
 								</select>
 									
 							</div>
@@ -98,9 +110,7 @@
 						<h1 class="text-center"  style="color: white; font-weight: 700;padding: 10px 0 0 0;">Donate The Blood</h1>
 						<hr class="white-bar">
 						<p class="text-center pera-text">
-							We are a group of exceptional programmers; our aim is to promote education. If you are a student, then contact us to secure your future. We deliver free international standard video lectures and content. We are also providing services in Web & Software Development.
-
-							We are a group of exceptional programmers; our aim is to promote education. If you are a student, then contact us to secure your future. We deliver free international standard video lectures and content. We are also providing services in Web & Software Development.
+						To be the best Online Blood Center in India.<BR> Dedicated to quality, integrity, service, and excellence in everything we do, This website  works to ensure reliable and streamlined access to a stable supply of safe blood and related products wherever they are needed. We aim to become the industry’s standard-bearer in providing the highest level of service to all the various stakeholders we serve—from financial contributors, blood donors, and blood drive sponsors to hospital partners, and biotechnology companies.
 						</p>
 						<a href="#" class="btn btn-default btn-lg text-center center-aligned">Become a Life Saver!</a>
 					</div>
@@ -116,7 +126,7 @@
      						<h3 class="text-center red">Our Vission</h3>
 								<img src="img/binoculars.png" alt="Our Vission" class="img img-responsive" width="168" height="168">
 								<p class="text-center">
-									We are a group of exceptional programmers; our aim is to promote education. If you are a student, then contact us to secure your future. We deliver free international standard video lectures and content. We are also providing services in Web & Software Development.
+								To be the best Online Blood Center in India.<BR> Dedicated to quality, integrity, service, and excellence in everything we do, This website  works to ensure reliable and streamlined access to a stable supply of safe blood and related products wherever they are needed.
 								</p>
 						</div>
     				</div>
@@ -126,7 +136,7 @@
       							<h3 class="text-center red">Our Goal</h3>
 								<img src="img/target.png" alt="Our Vission" class="img img-responsive" width="168" height="168">
 								<p class="text-center">
-									We are a group of exceptional programmers; our aim is to promote education. If you are a student, then contact us to secure your future. We deliver free international standard video lectures and content. We are also providing services in Web & Software Development.
+								To wipe off the scarcity of blood and ensure availability of safe and quality blood and other blood components, round the clock and throughout the year. This will lead to alleviation of human sufferings, even to the far-flung remote areas in the country.
 								</p>
 						</div>
     				</div>
@@ -136,9 +146,11 @@
       						<h3 class="text-center red">Our Mission</h3>
 								<img src="img/goal.png" alt="Our Vission" class="img img-responsive" width="168" height="168">
 								<p class="text-center">
-									We are a group of exceptional programmers; our aim is to promote education. If you are a student, then contact us to secure your future. We deliver free international standard video lectures and content. We are also providing services in Web & Software Development.
+							
+							Through effective outreach to donors, continual development of biomedical expertise, and brand-building partnerships with the community, blood drive sponsors, and health care facilities, Nebraska Community Blood Bank connects those who need blood with those generous volunteers who give.
 								</p>
-							</div>
+		
+		</div>
    			 		</div>
  			</div>
  		</div>

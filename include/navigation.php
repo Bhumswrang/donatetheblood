@@ -1,6 +1,7 @@
+
 <body>
 <!-- Navigation starts -->
-<nav id="mainNav" class="navbar fixed-top navbar-default navbar-expand-lg navbar-light bg-light">
+<nav id="mainNav" class="navbar fixed-top navbar-default navbar-expand-lg navbar-light bg-light background">
   <a class="navbar-brand" href="./index.php">DONATETHEBLOOD</a>
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
